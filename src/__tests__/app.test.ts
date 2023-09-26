@@ -9,7 +9,3 @@ describe('sample test', () => {
       expect(response.body.every((item: string) => typeof item === 'string')).toBe(true); // Check if all elements are strings
     });
   });
-
-  // afterAll(() => {
-  //   app.close();
-  // });
